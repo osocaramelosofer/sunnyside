@@ -1,0 +1,10 @@
+.grid__container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+.section_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
